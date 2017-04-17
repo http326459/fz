@@ -1,0 +1,73 @@
+/*ss重置样式  */
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+body{font-family: microsoft yahei;color:#333;}
+i,b{font-style: normal;}
+a{text-decoration:none;}
+img{vertical-align:top;width: 100%;}
+input,textarea,select,textarea,img,a{resize: none;outline: none;border: none;}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.clearfix:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1}
+
+
+.header{position: relative;}
+.header a{position: absolute;right: 5%;top:12%;display: block;width: 22px;height: 22px;}
+.content{position: relative;}
+.content .incont{height:300px;overflow:hidden;position:relative;}
+.content .incont img{transition:all 1s;position:absolute;left:0;bottom:0;}
+.content .bad{position:absolute;left:50%;top:0;width:30%;height:100%;margin-left:-15%;}
+.content .bad .kite{width:100%;margin-top:95%;margin-bottom:46%;}
+.content .bad .game{width:100%;}
+.bot{background: #ffe536;position: relative;height:580px;}
+.bot .rule{width:70%;margin:0 auto;padding-top:20px;}
+.bot .botincon{height:481px;border:3px dashed #000;border-radius:10px;width:80%;background:#fff;padding:0 12px;margin:0 auto;}
+.bot .botincon .abovetop{position:relative;width:100%;border-bottom:1px solid #d1d1d1;}
+.integral{width:35%;position:absolute;left:50%;top:10px;margin-left:-17.5%;}
+.more{float:right;width:15%;margin:20px 0 0 0;}
+.bot .botincon .abovetop .abbot{clear:both;padding:10px 0 10px 0;}
+.bot .botincon .abovetop .abbot p{line-height:25px;}
+.bot .botincon .abovetop .abbot p span{float:right;}
+.bot .botincon .abovez{width:100%;border-bottom:1px solid #d1d1d1;}
+.cen{width:35%;margin:0 auto;padding:20px 0;}
+.bot .botincon .abovez .lunbo{position:relative;height:85px;}
+.bot .botincon .abovez .lunbo .lbleft,.lbright{width:20px;height:20px;display:block;position:absolute;top:50%;margin-top:-10px;}
+.bot .botincon .abovez .lunbo .lbleft{left:12px;}
+.bot .botincon .abovez .lunbo .lbright{right:12px;}
+.bot .botincon .abovez .lunbo .bor{position:absolute;left:50%;top:10px;width:80%;margin-left:-40%;background:#d3d1d2;height:12px;border-radius:6px;z-index:99;}
+.bot .botincon .abovez .lunbo .bal{position:absolute;left:50%;top:10px;width:70%;overflow:hidden;margin-left:-35%;}
+.bot .botincon .abovez .lunbo .bal ul li{float:left;width:30%;margin-right:6px;position:relative;}
+.bot .botincon .abovez .lunbo .bal ul li:nth-last-child(1){margin-right:0;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben{position:absolute;left:0;top:9px;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben p{font-size:10px;transform:scale(0.6);text-align:center;height:10px;color:#333;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben .p1{color:#f873a0;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben .p2{color:#999;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben .p2 i{float:left;width:12px;height:12px;margin-top:2px;}
+.bot .botincon .dongtai{position:relative;}
+.bot .botincon .dongtai .dtbot{clear:both;padding-top:10px;}
+.bot .botincon .dongtai .dtbot h4{color:#f4729e;height:40px;line-height:40px;}
+.bot .botincon .dongtai .dtbot p{height:35px;line-height:35px;}
+.bot .botincon .dongtai .dtbot p i{float:left;}
+.bot .botincon .dongtai .dtbot p span{float:right;}
+.shuju{background:#6D66C6;width:100%;height:60%;position:fixed;left:0;bottom:-70%;z-index:99;border-top:3px solid #000;transition:all 2s;}
+.shuju .pad{padding:0 12px;height:100%;}
+.shuju .sj_top{width:100%;position:relative;height:100px;border-bottom:1px solid #fff;}
+.shuju .sj_top .tpic{width:105px;height:105px;border:3px solid #000;border-radius:50%;position:absolute;left:12px;top:-33px;}
+.shuju .sj_top .title{position:absolute;left:130px;color:#fff;}
+.shuju .sj_top .title h5{font-size:16px;height:30px;line-height:30px;}
+.shuju .sj_top .title p{font-size:12px;height:20px;line-height:20px;}
+.shuju .sj_top .babkc{display:block;width:8%;position:absolute;right:0;top:12px;}
+.shuju .sj_bot{height:70%;overflow-y:auto;}
+.shuju .sj_bot p{height:30px;line-height:30px;color:#fff;font-size:16px;}
+.shuju .sj_bot p i{float:left;}
+.shuju .sj_bot p span{float:right;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+     <meta charset="utf-8">
+     <meta http-equiv="Cache-Control" content="no-cache"/>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <title>放风筝小游戏</title>
+     <link href="css/style.css" rel="stylesheet">
+     <script src="js/jquery-3.1.0.min.js"></script>
+     <script type="text/javascript">
+		 $(function(){
+		     var imgMar = 0;
+		     var hits = 0;
+			 var imgHei = $(".incont img").height();
+             var img = $(".incont img");
+			// console.log(imgHei);
+			 $(".game").click(function(){
+			    hits++;
+			    var num = imgHei-400;
+			    //console.log(num);
+                 imgMar +=-60;
+			    img.css("bottom",imgMar+"px");
+			    //console.log(hits);
+                 var margT = $(".incont img").offset().top;
+                 console.log(margT);
+                 if(hits > 5){
+                     if(margT < -num){
+                         img.css("bottom","0");
+                         imgMar = 0;
+                     }
+				 }
+			 });
+			 $(".more").click(function(){
+			    $(".shuju").css("bottom",0);
+			    $("body,html,.index").css("overflow-y","hidden");
+			 });
+			 $(".babkc").click(function(){
+                 $(".shuju").css("bottom","-70%");
+                 $("body,html,.index").css("overflow-y","auto");
+			 });
+		 });
+    </script>
+</head>
+<body>
+	<div class="index">
+		<div class="header"><img src="images/hea_02.jpg"/>
+			<a href="#"><img src="images/sv_03.png"/></a>
+		</div>
+		<div class="content">
+			<div class="incont"><img src="images/beijing.jpg"/></div>
+			<div class="bad">
+				<div class="kite"><img src="images/kite.png"/></div>
+				<a class="game"><img src="images/ksyx.png"/></a>
+			</div>
+		</div>
+		<div class="bot">
+			<div class="rule"><img src="images/hdgz.png"/></div>
+			<div class="botincon">
+				<div class="abovetop clearfix">
+					<div class="integral"><img src="images/jf_03.png"/></div>
+					<div class="more"><img src="images/jf_06.png"/></div>
+					<div class="abbot">
+						<p class="clearfix">
+							<time>2017-01-01 20:30</time>
+							<span>+<i>300</i>积分</span>
+						</p>
+						<p class="clearfix">
+							<time>2017-01-01 20:30</time>
+							<span>+<i>300</i>积分</span>
+						</p>
+					</div>
+				</div>
+				<div class="abovez">
+					<div class="cen"><img src="images/jifen.png" /></div>
+					<div class="lunbo">
+						<a href="javascript:;" class="lbleft"><img src="images/left.png" /></a>
+						<a href="javascript:;" class="lbright"><img src="images/right.png" /></a>
+						<div class=bor></div>
+						<div class="bal">
+							<ul class="clearfix">
+								<li>
+									<img src="images/dbg.png" />
+									<div class="wenben">
+										<p class="p1">200元</p>
+										<p>话费</p>
+										<p>10000积分</p>
+										<p class="p2">未解锁</p>
+									</div>
+								</li>
+								<li>
+									<img src="images/dbg.png" />
+									<div class="wenben">
+										<p class="p1">200元</p>
+										<p>话费</p>
+										<p>10000积分</p>
+										<p class="p2"><i><img src="images/gou.png" /></i>已领取</p>
+									</div>
+								</li>
+								<li>
+									<img src="images/dbg.png" />
+									<div class="wenben">
+										<p class="p1">200元</p>
+										<p>话费</p>
+										<p>10000积分</p>
+										<p class="p2">未解锁</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="dongtai clearfix">
+					<div class="integral"><img src="images/duihuan.png" /></div>
+					<div class="more"><img src="images/jf_06.png" /></div>
+					<div class="dtbot">
+						<h4>已有<span>125</span>名用户成功领取奖励</h4>
+						<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+						<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+						<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="shuju">
+			<div class="pad">
+				<div class="sj_top">
+					<div class="tpic"><img src="images/tx.png" /></div>
+					<div class="title">
+						<h5>Easpada</h5>
+						<p>已获得：<span>10000积分</span></p>
+						<p>已兑换：<span>10000积分</span></p>
+						<p>可使用：<span>9000积分</span></p>
+					</div>
+					<a href="javascsript:;" class="babkc"><img src="images/cha.png" /></a>
+				</div>
+				<div class="sj_bot">
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+					<p class="clearfix"><i>135****5663</i><span>兑换100M日包</span></p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
