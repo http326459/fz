@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .bot .botincon .abovez .lunbo .bal{position:absolute;left:50%;top:10px;width:70%;overflow:hidden;margin-left:-35%;}
 .bot .botincon .abovez .lunbo .bal ul li{float:left;width:30%;margin-right:6px;position:relative;}
 .bot .botincon .abovez .lunbo .bal ul li:nth-last-child(1){margin-right:0;}
-.bot .botincon .abovez .lunbo .bal ul li .wenben{position:absolute;left:0;top:9px;}
+.bot .botincon .abovez .lunbo .bal ul li .wenben{position:absolute;left:0;top:9px;width:100%;}
 .bot .botincon .abovez .lunbo .bal ul li .wenben p{font-size:10px;transform:scale(0.6);text-align:center;height:10px;color:#333;}
 .bot .botincon .abovez .lunbo .bal ul li .wenben .p1{color:#f873a0;}
 .bot .botincon .abovez .lunbo .bal ul li .wenben .p2{color:#999;}
